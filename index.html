@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table form</title>
+</head>
+<body>
+    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; REGISTRATION FORM</h1>
+    <!-- <table border="2"> -->
+        <form action="output.html" method="post" target="_top" >
+           <table border="1" style="background-color: pink;color:black;">
+
+
+            <tr>
+               <th> <label for="tname">ENTER YOUR NAME :</label>
+            </th>
+            <td>
+                <input type="text" name="name" id="tname"placeholder="please enter your name" size="10" disable >
+            </td>
+            </tr>
+            <tr>
+                <th> <label for="Nname">ENTER YOUR MOBILE NUMBER :</label>
+                </th>
+             <td>
+                 <input type="tel" name="name" id="Nname"placeholder="please enter mob no" maxlength="10"minlength="10">
+             </td>
+             </tr>
+            <tr>
+                <th> <label for="pname">ENTER YOUR PASSWORD :</label>
+             </th>
+             <td>
+                 <input type="password" name="name"id="pname"placeholder="please enter add"maxlength="10"minlength="10"disable autofocus>
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Ename">ENTER YOUR EMAIL :</label>
+             </th>
+             <td>
+                 <input type="email" name="name" id="Ename"placeholder="please entre email">
+             </td>
+             </tr>
+             <tr>
+                <th>
+                    <label for="gname">SELECT YOUR GENDER :</label>
+                </th>
+                <td>
+                    <input type="radio" name="male" id="gname">MALE<BR>
+                    <input type="radio" name="male" id="gname">FEMALE
+
+                </td>
+             </tr>
+             <tr>
+                <th> <label for="Rname">ENTER YOUR RANGE :</label>
+             </th>
+             <td>
+                 <input type="range" name="name" id="Rname"placeholder="please entre your range">
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Tname">TODAYS TIME :</label>
+             </th>
+             <td>
+                 <input type="time" name="name" id="Tname" readonly>
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Dname">TODAYS DATE :</label>
+             </th>
+             <td>
+                 <input type="date" name="name" id="Dname">
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Cname">FAVOURITE COLOR :</label>
+             </th>
+             <td>
+                 <input type="color" name="name" id="Cname">
+             </td>
+             </tr>
+             <tr>
+
+                <th> <label for="Sname">SOMETHING SERCHING :</label>
+             </th>
+             <td>
+                 <input type="search" name="name" id="Sname">
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Checkname">CHOOSE COURSE :</label>
+             </th>
+             <td>
+                <select name="Checkname" id="Checkname">
+                   
+                    <option>choose sub</option>
+                    <option value="TAG">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">BOOSTRAPE</option>
+                    <option value="">JAVASCRIPT</option>
+                    <option value="">REACT</option>
+                
+                </select>
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="fname">UPLOAD YOUR FILE :</label>
+             </th>
+             <td>
+                <input type="file" name="fname" id="fname" required>
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Pname">UPLOAD YOUR FAV PIC :</label>
+             </th>
+             <td>
+                 <input type="image"src="https://media.istockphoto.com/id/479667835/photo/background-elephant.jpg?s=1024x1024&w=is&k=20&c=uZ0BJg3TlPN-3l-dphCQXRGxbRBKsDYbt2RSBEwrkMY="height="300"width="350" name="Pname" id="Pname">
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Aname">ENTER YOUR CURRENT ADDRESS :</label>
+             </th>
+             <td>
+                <textarea name="address" id="Aname" cols="50" rows="8" placeholder="enter your adderss"></textarea>
+             </td>
+             </tr>
+             <tr>
+                <th> <label for="Sname">CHEKED YOUR SUBJECT :</label>
+             </th>
+             <td>
+                <input type="checkbox" name="fname" id="Sname" >MERN<br>
+                <input type="checkbox" name="fname" id="Sname">MEAN<br>
+                <input type="checkbox" name="fname" id="Sname">AI<br>
+                <input type="checkbox" name="fname" id="Sname">DEOOPS<br>
+                <input type="checkbox" name="fname" id="Sname">FULL STACK
+                
+             </td>
+             </tr>
+             <tr>
+               <th>
+
+               </th>
+                <td style="margin-left: 200PX;">
+                    <input type="submit" value="SUBMIT" style="height:50px;width: 80px;background-color: red;color: white;border-radius: 20%; margin-left: 100px;">&nbsp &nbsp &nbsp
+                    <input type="reset" value="RESET"style="height:50px;width: 80px;background-color: green;color: white;border-radius: 20%;">
+
+                 </td>
+             </tr>
+             <tr>
+               <th>FIELDSET & LEGEND ATTRIBUTE</th>
+               <td>
+                  <fieldset style="width: 150px; width: 350PX;color: olive; ">
+                     <legend>Personal Information:</legend>
+                     <label for="fname">First name:</label><br>
+                     <input type="text" id="fname" name="fname" value="John"><br>
+                     <label for="lname">Last name:</label><br>
+                     <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                     <input type="submit" value="Submit">
+                   </fieldset>
+               </td>
+             </tr>
+
+
+
+             
+             
+        </table>
+        </form>
+  
+</body>
+</html>
